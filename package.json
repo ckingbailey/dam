@@ -1,0 +1,19 @@
+{
+  "name": "dam",
+  "version": "1.0.0",
+  "description": "Dam safety app for CA Water Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckingbailey/dam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckingbailey/dam/issues"
+  },
+  "homepage": "https://github.com/ckingbailey/dam#readme"
+}
