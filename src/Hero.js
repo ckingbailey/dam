@@ -4,16 +4,17 @@ import './css/hero.css'
 class Hero extends React.Component {
 	render() {
 		return (
-			<div className="hero__image">
-				<div className="hero__text">
-					<h1>
+			<div className="grid-x align-middle hero__image">
+				<div className="cell medium-6 medium-offset-3 hero__text">
+					<h1 className="hero__headline">Did you know</h1>
+					<hr className="hero__underline" />
+					<h2>
 						<ul>
-							<li>Did you know dams can break?</li>
-							<li>Broken dams are bad!</li>
-							<li>They can kill youuuuu...</li>
+							<li>...Dams can break</li>
+							<li>...Broken dams are bad!</li>
+							<li>...They can kill youuuuu!</li>
 						</ul>
-					</h1>
-					
+					</h2>
 				</div>
 			</div>
 		);
