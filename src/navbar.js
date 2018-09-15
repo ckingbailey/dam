@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import './css/navbar.css'
+import React, { Component } from 'react';
+import './css/navbar.css';
+import scrollToComponent from 'react-scroll-to-component'
 
 class Navbar extends Component {
     render() {
