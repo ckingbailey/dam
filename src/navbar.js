@@ -9,7 +9,7 @@ class Navbar extends Component {
                     <h5 className="navbar__site-title"><a href="/index.html">Dam</a></h5>
                 </div>
                 <div className="top-bar-right">
-                    <ul class="dropdown menu" data-dropdown-menu>
+                    <ul className="dropdown menu" data-dropdown-menu>
                         <li><a href="/about.html">About</a></li>
                     </ul>
                 </div>
