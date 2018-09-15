@@ -3,7 +3,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../laureen-missaire-dam.jpg");
 
   /* Set a specific height */
-  height: 100vh;
+  height: 680px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
