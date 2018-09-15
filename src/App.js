@@ -4,6 +4,7 @@ import Navbar from './navbar.js'
 import Map from './map.js'
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
