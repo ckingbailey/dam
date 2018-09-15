@@ -3,7 +3,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../laureen-missaire-dam.jpg");
 
   /* Set a specific height */
-  height: 600px;
+  height: 680px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -11,9 +11,17 @@
   background-size: cover;
 }
 
+.hero__headline {
+  text-align: left;
+  font-size: 3.5rem;
+}
+
 .hero__text {
+  /* margin-top: 3rem; */
+  margin-bottom: 1.5rem;
+  height: fit-content;
+  padding: 1.5rem 2.5rem 1.65rem;
 	text-align: center;
-  /* transform: translate(-50%, -50%); */
   color: white;
   border: 1px solid white;
 }
