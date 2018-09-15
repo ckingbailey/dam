@@ -33,6 +33,12 @@
   border: 1px solid white;
 }
 
+.hero__text h1 {
+  text-align: center;
+}
+
 .hero__text ul {
-	list-style: none;
+	list-style: bullet;
+  list-style-position: inside;
+  font-size: large;
 }
