@@ -12,8 +12,15 @@
 }
 
 .hero__headline {
+  margin-bottom: 0;
   text-align: left;
   font-size: 3.5rem;
+}
+
+.hero__underline {
+  margin-top: 0;
+  margin-bottom: .25rem;
+  border-color: #cacacadd;
 }
 
 .hero__text {
