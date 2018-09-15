@@ -9,4 +9,10 @@
 
 .navbar__site-title {
     margin: 0;
+    font-weight: bold;
+}
+
+.navbar__item {
+	padding-left: 0.7em;
+	padding-right: 0.7em;
 }
