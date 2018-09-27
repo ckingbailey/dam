@@ -1,6 +1,6 @@
 .hero__image {
   /* Use "linear-grapdient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/bridge-highway-river-transport-dam-reservoir-243401-lg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/bridge-highway-river-transport-dam-reservoir-243401-lg.jpg");
 
   /* Set a specific height */
   height: calc(100vh - (1.25rem + .5rem + .5rem));
