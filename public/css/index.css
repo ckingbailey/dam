@@ -1,6 +1,7 @@
 @import './hero.css';
 @import './navbar.css';
 @import './map.css';
+@import './story.css';
 
 body {
   --lt-grey: #d6d6d6;
