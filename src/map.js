@@ -9,7 +9,7 @@ export default class Map extends Component {
                     <iframe
                         src="https://arcgis-content.maps.arcgis.com/apps/opsdashboard/index.html#/78bf1715d46c431ca75930ea88ebb653"
                         id="damMap"
-                        name="Embedded Dam Map"
+                        title="Embedded Dam Map"
                         width="100%"
                         height="900"
                         frameborder="0"
