@@ -1,3 +1,7 @@
+@import './hero.css';
+@import './navbar.css';
+@import './map.css';
+
 body {
   --lt-grey: #d6d6d6;
   margin: 0;
