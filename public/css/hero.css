@@ -14,7 +14,7 @@
 .hero__headline {
   margin-bottom: 0;
   text-align: left;
-  font-size: 3.5rem;
+  font-size: 7rem;
 }
 
 .hero__underline {
@@ -24,13 +24,11 @@
 }
 
 .hero__text {
-  /* margin-top: 3rem; */
   margin-bottom: 1.5rem;
   height: fit-content;
   padding: 1.5rem 2.5rem 1.65rem;
 	text-align: center;
   color: white;
-  border: 1px solid white;
 }
 
 .hero__text h1 {
