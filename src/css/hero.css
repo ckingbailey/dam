@@ -14,10 +14,10 @@
 .hero__headline {
   margin-bottom: 0;
   text-align: left;
-  font-size: 7rem;
+  font-size: 12vh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .hero__headline {
     font-size: 6vh;
   }
