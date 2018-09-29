@@ -14,7 +14,7 @@
 .hero__headline {
   margin-bottom: 0;
   text-align: left;
-  font-size: 5rem;
+  font-size: 12vh;
 }
 
 @media screen and (max-width: 768px) {
