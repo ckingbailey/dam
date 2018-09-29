@@ -1,0 +1,19 @@
+@import './hero.css';
+@import './navbar.css';
+@import './map.css';
+@import './story.css';
+
+body {
+  --lt-grey: #d6d6d6;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #0b1414, #0b141499);
+  background-color: #0b1414;
+  background-position: 0 680px;
+}

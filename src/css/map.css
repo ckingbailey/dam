@@ -1,0 +1,10 @@
+.map-container {
+    margin-top: 3rem;
+    margin-bottom: 3.25rem;
+    border: 1px solid #d0d0d0;
+    background-color: #eee;
+}
+
+.map-container__map-placeholder {
+    height: 700px;
+}

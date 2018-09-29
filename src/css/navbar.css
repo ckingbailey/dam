@@ -1,0 +1,18 @@
+.navbar, .navbar * {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.navbar a:hover {
+    color: var(--lt-grey);
+}
+
+.navbar__site-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar__item {
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}

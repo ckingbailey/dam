@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Hero from './Hero.js'
 import Navbar from './navbar.js'
 import Map from './map.js'
+import Story from './story.js';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Hero />
+        <Story />
         <Map />
       </div>
     );
