@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import mapImage1 from './assets/story-image1.png'
 import mapImage2 from './assets/story-image2.png'
-import barChart from './assets/story-image3.png'
+import barChart from './assets/story-image4.png'
 
 class Story extends Component {
     render() {
