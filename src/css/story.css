@@ -3,7 +3,31 @@
     font-size: 1.25rem;
 }
 
-.story li {
-    margin-bottom: 1.65rem;
-    list-style-type: none;
+.story__line {
+    margin-bottom: 3rem;
+    padding: .5rem;
+}
+
+.story__line>p {
+    margin-bottom: 2rem;
+}
+
+.story__line-2 .story__img-container {
+    text-align: right;
+}
+
+.story__line-3 .story__img-container {
+    text-align: center;
+}
+
+.story__line-1 .story__img {
+    width: 300px;
+}
+
+.story__line-2 .story__img {
+    width: 400px;
+}
+
+.story__line-3 .story__img {
+    width: 450px;
 }
