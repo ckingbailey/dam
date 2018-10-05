@@ -13,12 +13,12 @@ class App extends Component {
     }
   }
 
-  maybeShowAboutModal() {
+  maybeShowAboutModal = () => {
     return this.state.showAboutModel ?
       <AboutModal /> : null
   }
 
-  toggleAboutModal() {
+  toggleAboutModal = () => {
     this.setState(prev => {
       return { showAboutModal: !prev.showAboutModal }
     })
@@ -27,8 +27,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        { this.maybeShowAboutModal() }
-        <Navbar />
+        { this.state.showAboutModal ? <AboutModal /> : null }
+        <Navbar handleAboutClick={ () => this.toggleAboutModal() } />
         <Hero />
         <Story />
         <Map />

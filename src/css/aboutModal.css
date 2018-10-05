@@ -1,0 +1,6 @@
+.about-modal {
+    position: absolute;
+    top: 4.75vh; left: 12.5vw;
+    background-color: var(--lt-grey);
+    width: 75vw; height: 80vh;
+}
