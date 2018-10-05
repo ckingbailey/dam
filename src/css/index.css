@@ -1,10 +1,15 @@
+@import './aboutModal.css';
 @import './hero.css';
 @import './navbar.css';
 @import './map.css';
 @import './story.css';
 
 body {
-  --lt-grey: #d6d6d6;
+  --orange: #feb24c;
+  --grey-1: #d6d6d6;
+  --grey-2: #c0c0c0;
+  --grey-3: #b6b6b6;
+  --near-black: #2c2c2c;
   margin: 0;
   padding: 0;
   font-family: sans-serif;

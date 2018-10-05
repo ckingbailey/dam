@@ -1,13 +1,12 @@
 .map-section {
-    --grey: #c0c0c0;
     margin-bottom: 3.25rem;
 }
 
 .map-section__dropdown-instruction {
     text-align: right;
-    color: var(--grey);
+    color: var(--grey-2);
 }
 
 .map-section__map-container {
-    box-shadow: 0 0 1px 1px var(--grey);
+    box-shadow: 0 0 1px 1px var(--grey-2);
 }

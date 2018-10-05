@@ -1,0 +1,57 @@
+.modal-open {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.about-modal__onclickoutside {
+    position: absolute;
+    top: 0; left: 0;
+    background-color: #0009;
+    width: 100%; height: 100vh;
+    z-index: 5;
+}
+
+.about-modal {
+    --modalWidth: 50vw;
+    --posTop: 2rem;
+    --posLeft: calc((100vw - var(--modalWidth)) / 2);
+    --padTop: 1.75rem;
+    --padSide: 2rem;
+    position: absolute;
+    top: var(--posTop); left: var(--posLeft);
+    border: 1px solid var(--grey-2);
+    box-shadow: 0 0 1px 0 var(--grey-2);
+    width: var(--modalWidth); height: 80vh;
+    padding: var(--padTop) var(--padSide) 2rem;
+    background-color: var(--near-black);
+    z-index: 10;
+}
+
+.about-modal__close-button {
+    position: absolute;
+    top: calc(var(--padTop) / 2); right: calc(var(--padSide) / 1.5);
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: var(--grey-3);
+    cursor: pointer;
+}
+
+.about-modal__close-button:hover {
+    color: var(--grey-1);
+}
+
+.about-modal__close-button:focus {
+    outline: none;
+}
+
+.about-modal a {
+    color: var(--grey-3);
+}
+
+.about-modal a:hover {
+    color: var(--orange);
+}
+
+.about-modal__report-link {
+    font-style: italic;
+}
