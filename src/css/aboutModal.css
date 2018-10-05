@@ -18,13 +18,11 @@
     --posLeft: calc((100vw - var(--modalWidth)) / 2);
     --padTop: 1.75rem;
     --padSide: 2rem;
-    position: fixed;
+    position: absolute;
     top: var(--posTop); left: var(--posLeft);
-    margin-bottom: calc(var(--posTop) * .9);
     box-shadow: 0 0 1px 0 var(--grey-2);
     border: 1px solid var(--grey-2);
     width: var(--modalWidth);
-    min-height: var(--modalMinHeight);
     padding: var(--padTop) var(--padSide) 2rem;
     background-color: var(--near-black);
     z-index: 10;
@@ -64,6 +62,6 @@
 }
 
 .about-modal__team-pic-label {
-    font-size: .875rem;
+    font-size: .86rem;
     color: var(--grey-2);
 }
