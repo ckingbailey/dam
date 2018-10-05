@@ -1,3 +1,8 @@
+.modal-open {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
 .about-modal__onclickoutside {
     position: absolute;
     top: 0; left: 0;
