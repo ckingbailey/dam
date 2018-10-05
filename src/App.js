@@ -31,6 +31,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        { this.state.showAboutModal ? <div onClick={ this.closeAboutModal } className="about-modal__onclickoutside"></div> : null }
         { this.state.showAboutModal ? <AboutModal handleCloseClick={ () => this.closeAboutModal() } /> : null }
         <Navbar handleAboutClick={ () => this.toggleAboutModal() } />
         <Hero />
