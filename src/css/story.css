@@ -12,6 +12,10 @@
     margin-bottom: 2rem;
 }
 
+.story__line-1 .story__img-container {
+    text-align: center;
+}
+
 .story__line-2 .story__img-container {
     text-align: right;
 }
@@ -20,14 +24,19 @@
     text-align: center;
 }
 
-.story__line-1 .story__img {
-    width: 300px;
-}
-
+.story__line-1 .story__img,
 .story__line-2 .story__img {
-    width: 400px;
+    width: 300px;
 }
 
 .story__line-3 .story__img {
     width: 450px;
+}
+
+a.story__report-link {
+    color: #b6b6b6;
+}
+
+a.story__report-link:hover {
+    color: #feb24c;
 }
