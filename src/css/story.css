@@ -32,3 +32,11 @@
 .story__line-3 .story__img {
     width: 450px;
 }
+
+a.story__report-link {
+    color: #b6b6b6;
+}
+
+a.story__report-link:hover {
+    color: #feb24c;
+}

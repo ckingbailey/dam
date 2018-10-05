@@ -5,6 +5,8 @@ import barChart from './assets/story-image4.png'
 
 class Story extends Component {
     render() {
+        const damReportLink = "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/All-Programs/Division-of-safety-of-dams/Files/Publications/Dams-Within-Jurisdiction-of-the-State-of-California-2018-Alphabetically-by-Dam-Name.pdf"
+
         return (
             <div className="grid-x story">
                 <div className="cell medium-4 medium-offset-2 story__line story__line-1">
@@ -12,7 +14,7 @@ class Story extends Component {
                     <div className="story__img-container"><img src={ mapImage1 } alt="map showing 1400 dams in California" className="story__img" /></div>
                 </div>
                 <div className="cell medium-4 medium-offset-6 story__line story__line-2">
-                    <p>They are inspected annually by the DWR Division of Safety of Dams. The latest assesment found that 92% are in satisfactory condition. That leaves 98 dams that are not.</p>
+                    <p>They are inspected annually by the DWR Division of Safety of Dams. The <a href={damReportLink} target="_blank" className="story__report-link">latest assessment</a> found that 92% are in satisfactory condition. That leaves 98 dams that are not.</p>
                     <div className="story__img-container"><img src={ mapImage2 } alt="map showing 98 unsatisfactory dams in California" className="story__img" /></div>
                 </div>
                 <div className="cell medium-6 medium-offset-3 story__line story__line-3">
