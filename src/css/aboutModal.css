@@ -3,10 +3,21 @@
     --leftPos: calc((100vw - var(--modalWidth)) / 2);
     position: absolute;
     top: 2rem; left: var(--leftPos);
-    overflow-y: scroll;
     border: 1px solid var(--grey-2);
     box-shadow: 0 0 1px 0 var(--grey-2);
     width: var(--modalWidth); height: 80vh;
     padding: 1.75rem 2rem 2rem;
     background-color: var(--near-black);
+}
+
+.about-modal a {
+    color: var(--grey-3);
+}
+
+.about-modal a:hover {
+    color: var(--orange);
+}
+
+.about-modal__report-link {
+    font-style: italic;
 }
