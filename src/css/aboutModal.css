@@ -1,13 +1,32 @@
 .about-modal {
     --modalWidth: 50vw;
     --leftPos: calc((100vw - var(--modalWidth)) / 2);
+    --padTop: 1.75rem;
+    --padSide: 2rem;
     position: absolute;
     top: 2rem; left: var(--leftPos);
     border: 1px solid var(--grey-2);
     box-shadow: 0 0 1px 0 var(--grey-2);
     width: var(--modalWidth); height: 80vh;
-    padding: 1.75rem 2rem 2rem;
+    padding: var(--padTop) var(--padSide) 2rem;
     background-color: var(--near-black);
+}
+
+.about-modal__close-button {
+    position: absolute;
+    top: calc(var(--padTop) / 2); right: calc(var(--padSide) / 1.5);
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: var(--grey-3);
+    cursor: pointer;
+}
+
+.about-modal__close-button:hover {
+    color: var(--grey-1);
+}
+
+.about-modal__close-button:focus {
+    outline: none;
 }
 
 .about-modal a {

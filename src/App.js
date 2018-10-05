@@ -24,10 +24,14 @@ class App extends Component {
     })
   }
 
+  closeAboutModal = () => {
+    this.setState({ showAboutModal: false })
+  }
+
   render() {
     return (
       <div className="App">
-        { this.state.showAboutModal ? <AboutModal /> : null }
+        { this.state.showAboutModal ? <AboutModal handleCloseClick={ () => this.closeAboutModal() } /> : null }
         <Navbar handleAboutClick={ () => this.toggleAboutModal() } />
         <Hero />
         <Story />
