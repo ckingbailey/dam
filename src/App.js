@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import AboutModal from './aboutModal.js'
+import Definitions from './definitions.js'
 import Hero from './Hero.js'
 import Navbar from './navbar.js'
 import Map from './map.js'
@@ -37,6 +38,7 @@ class App extends Component {
         <Hero />
         <Story />
         <Map />
+        <Definitions />
       </div>
     );
   }
