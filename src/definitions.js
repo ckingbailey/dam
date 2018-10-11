@@ -37,7 +37,7 @@ export default class Definitions extends Component {
             <div class="grid-x">
                 <div class="medium-10 medium-offset-1">
                     <h3>Data definitions</h3>
-                    <p>Dam condition is assessed according to criteria established by the National Inventory of Dams (NID) definitions. For some condition categories, the California Division of Safety of Dams (DSOD) has added additional criteria. These definitions are summarized below. For a full description of these condition assessment criteria, see the 2018 DSOD dam safety assessment report.</p>
+                    <p>Dam condition is assessed according to criteria established by the National Inventory of Dams (NID) definitions. For some condition categories, <a href="https://water.ca.gov/Programs/All-Programs/Division-of-Safety-of-Dams">the California Division of Safety of Dams (DSOD)</a> has added additional criteria. These definitions are summarized below. For a full description of these condition assessment criteria, see the 2018 <a href={ this.props.damReportLink }>DSOD dam safety assessment report</a>.</p>
                     <h4>Dam Condition Assessment</h4>
                     <p>California DSOD uses NID’s condition rating definitions, with additional criteria, as a guideline in assigning condition assessments.</p>
                     { this.renderDefsList(this.damConditionDefs) }
