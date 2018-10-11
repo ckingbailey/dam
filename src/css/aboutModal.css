@@ -45,14 +45,6 @@
     outline: none;
 }
 
-.about-modal a {
-    color: var(--grey-3);
-}
-
-.about-modal a:hover {
-    color: var(--orange);
-}
-
 .about-modal__report-link {
     font-style: italic;
 }

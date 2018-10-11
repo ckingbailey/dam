@@ -21,10 +21,11 @@ export default class Definitions extends Component {
         return (
             <dl>
             { Object.keys(defs).map(term => {
+                const termHeading = term.charAt(0).toUpperCase() + term.slice(1)
                 return (
-                    <div>
-                        <dt>{ term }</dt>
-                        <dd>{ defs[term] }</dd>
+                    <div className="definitions__table-row grid-x">
+                        <dt className="medium-3">{ termHeading }</dt>
+                        <dd className="medium-9">{ defs[term] }</dd>
                     </div>
                 )
             }) }
@@ -36,17 +37,29 @@ export default class Definitions extends Component {
         return (
             <div class="grid-x">
                 <div class="medium-10 medium-offset-1">
-                    <h3>Data definitions</h3>
+                    <h3 className="definitions__heading">Data definitions</h3>
                     <p>Dam condition is assessed according to criteria established by the National Inventory of Dams (NID) definitions. For some condition categories, <a href="https://water.ca.gov/Programs/All-Programs/Division-of-Safety-of-Dams">the California Division of Safety of Dams (DSOD)</a> has added additional criteria. These definitions are summarized below. For a full description of these condition assessment criteria, see the 2018 <a href={ this.props.damReportLink }>DSOD dam safety assessment report</a>.</p>
-                    <h4>Dam Condition Assessment</h4>
-                    <p>California DSOD uses NID’s condition rating definitions, with additional criteria, as a guideline in assigning condition assessments.</p>
-                    { this.renderDefsList(this.damConditionDefs) }
-                    <h4>Downstream Hazard</h4>
-                    <p>Downstream hazard is based on potential downstream impacts to life and property if a dam failed when operating with a full reservoir. This hazard is not related to the condition of the dam. DSOC definitions for downstream hazards are based on Federal Guidelines for Inundation Mapping of Flood Risks Associated with Dam Incidents and Failures (FEMA P-946, July 2013). While FEMA includes three categories: Low, Significant, and High. DSOD adds a fourth category, “Extremely High.”</p>
                     <div>
-                        <h5>Potential Hazard</h5>
-                        <h5>Potential Downstream Impacts to Life and Property</h5>
-                        { this.renderDefsList(this.downstreamHazardDefs) }
+                        <h4>Dam Condition Assessment</h4>
+                        <p className="definitions__explanation">California DSOD uses NID’s condition rating definitions, with additional criteria, as a guideline in assigning condition assessments.</p>
+                        <div className="definitions__table">
+                            <div className="definitions__table-row definitions__table-headings grid-x">
+                                <h5 className="medium-3">Rating</h5>
+                                <h5 className="medium-9">Definitions/Criteria</h5>
+                            </div>
+                            { this.renderDefsList(this.damConditionDefs) }
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Downstream Hazard</h4>
+                        <p className="definitions__explanation">Downstream hazard is based on potential downstream impacts to life and property if a dam failed when operating with a full reservoir. This hazard is not related to the condition of the dam. DSOC definitions for downstream hazards are based on Federal Guidelines for Inundation Mapping of Flood Risks Associated with Dam Incidents and Failures (FEMA P-946, July 2013). While FEMA includes three categories: Low, Significant, and High. DSOD adds a fourth category, “Extremely High.”</p>
+                        <div className="definitions__table">
+                            <div className="definitions__table-row definitions__table-headings grid-x">
+                                <h5 className="medium-3">Potential Hazard</h5>
+                                <h5 className="medium-9">Potential Downstream Impacts to Life and Property</h5>
+                            </div>
+                            { this.renderDefsList(this.downstreamHazardDefs) }
+                        </div>
                     </div>
                 </div>
             </div>
