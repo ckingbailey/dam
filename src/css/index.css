@@ -1,11 +1,18 @@
 @import './aboutModal.css';
+@import './definitions.css';
 @import './hero.css';
 @import './navbar.css';
 @import './map.css';
 @import './story.css';
 
 body {
+  --red: #e60000;
+  --dark-red: #730000;
+  --red-orange: #d24726;
   --orange: #feb24c;
+  --dark-orange: #ed7d31;
+  --purple: #8400a8;
+  --near-white: #fcfcfc;
   --grey-1: #d6d6d6;
   --grey-2: #c0c0c0;
   --grey-3: #b6b6b6;
@@ -18,7 +25,16 @@ body {
 
 .App {
   min-height: 100vh;
+  padding-bottom: 2rem;
   background-image: linear-gradient(to bottom, #0b1414, #0b141499);
   background-color: #0b1414;
   background-position: 0 680px;
+}
+
+a {
+  color: var(--grey-3);
+}
+
+a:hover {
+  color: var(--orange);
 }

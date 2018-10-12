@@ -1,0 +1,43 @@
+.definitions__heading {
+    border-bottom: 1px solid var(--grey-1);
+}
+
+.definitions__explanation {
+    border-left: 3px solid var(--grey-3);
+    padding: .5rem .75rem .65rem;
+}
+
+.definitions__table {
+    margin-bottom: 1rem;
+    border: 2px solid var(--dark-orange);
+    background-color: var(--near-white);
+    color: var(--near-black);
+}
+
+.definitions__table-headings {
+    background-color: var(--red-orange);
+    color: white;
+}
+
+.definitions__table-headings h5 {
+    font-weight: bold;
+}
+
+.definitions__table-row {
+    padding: .5rem .5rem .65rem;
+}
+
+.definitions__table-row dt {
+    font-weight: normal;
+}
+
+.definitions__table dl,
+.definitions__table dt,
+.definitions__table dd,
+.definitions__table h5 {
+    margin-bottom: 0;
+}
+
+.definitions__table-row:nth-child(2n + 1):not(.definitions__table-headings) {
+    background-color: #d2472666;
+}
