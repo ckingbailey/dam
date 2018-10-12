@@ -19,6 +19,7 @@ body {
   --near-black: #2c2c2c;
   margin: 0;
   padding: 0;
+  background-color: #0b1414;
   font-family: sans-serif;
   color: white;
 }
