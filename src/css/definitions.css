@@ -3,12 +3,29 @@
     border-bottom: 1px solid var(--grey-1);
 }
 
-.definitions__header h3, .definitions__download-button {
-    margin-bottom: 0;
+.definitions__heading {
+    margin-right: 1.5rem;
 }
 
 .definitions__download-button {
-    text-align: right;
+    margin-bottom: .8rem;
+    border-radius: 1.25rem;
+    padding: .6rem 1rem .625rem;
+    background-color: var(--red-orange);
+    font-size: 1.1rem;
+    transition: all .15s ease-in-out;
+}
+
+.definitions__download-button:hover {
+    background-color: #833027;
+    transition: all .07s ease-in-out
+}
+
+.definitions__download-button:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #772522;
+    transition: all .03s ease-in-out
 }
 
 .definitions__explanation {
