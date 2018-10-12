@@ -1,5 +1,14 @@
-.definitions__heading {
+.definitions__header {
+    margin-bottom: .5rem;
     border-bottom: 1px solid var(--grey-1);
+}
+
+.definitions__header h3, .definitions__download-button {
+    margin-bottom: 0;
+}
+
+.definitions__download-button {
+    text-align: right;
 }
 
 .definitions__explanation {
