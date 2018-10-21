@@ -35,13 +35,13 @@
 
 .definitions__table {
     margin-bottom: 1rem;
-    border: 2px solid var(--dark-orange);
+    border: 2px solid var(--grey-3);
     background-color: var(--near-white);
     color: var(--near-black);
 }
 
 .definitions__table-headings {
-    background-color: var(--red-orange);
+    background-color: var(--near-black);
     color: white;
 }
 
@@ -65,5 +65,5 @@
 }
 
 .definitions__table-row:nth-child(2n + 1):not(.definitions__table-headings) {
-    background-color: #d2472666;
+    background-color: var(--grey-1);
 }

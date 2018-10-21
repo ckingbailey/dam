@@ -23,7 +23,7 @@ export default class Definitions extends Component {
             { Object.keys(defs).map(term => {
                 const termHeading = term.charAt(0).toUpperCase() + term.slice(1)
                 return (
-                    <div className="definitions__table-row grid-x">
+                    <div className="definitions__table-row grid-x" key={ btoa(term) }>
                         <dt className="medium-3">{ termHeading }</dt>
                         <dd className="medium-9">{ defs[term] }</dd>
                     </div>
